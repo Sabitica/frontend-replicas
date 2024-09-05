@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "Graphik";
+  src: url("../graphikregular-webfont.woff") format("woff"), url("../graphikregular-webfont.woff2"), format("woff2");
+}
 body {
   margin: 0;
+  font-family: "Graphik", sans-serif;
 }
 
 a {
@@ -11,7 +16,15 @@ a {
   height: 40px;
   width: 100%;
   display: flex;
+  font: 400 12px/20px "Graphik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ad-top span {
   color: #FFF;
+}
+.ad-top span.ad-cta {
+  text-decoration: underline;
+  margin: 0 15px;
 }
