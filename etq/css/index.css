@@ -28,3 +28,31 @@ a {
   text-decoration: underline;
   margin: 0 15px;
 }
+
+.navbar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font: 400 14px/24px "Graphik", sans-serif;
+}
+.navbar .navbar-shop {
+  display: flex;
+  color: white;
+}
+.navbar .navbar-shop .logo {
+  max-height: 50x;
+  max-width: 100px;
+  margin: 0 15px;
+}
+.navbar .navbar-shop .navbar-shop-link {
+  margin: 0 15px;
+}
+.navbar .navbar-account {
+  display: flex;
+  color: black;
+}
+.navbar .navbar-account .navbar-account-link {
+  margin: 0 15px;
+}

@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 20px;
+    
+    font: 400 14px / 24px 'Graphik', sans-serif;
+    .navbar-shop {
+        display:flex;
+        color: white;      
+        .logo {
+            max-height: 50x;
+            max-width: 100px;
+            margin: 0 15px;
+        }
+        .navbar-shop-link {
+            margin: 0 15px;
+        }
+    }
+    .navbar-account {
+        display: flex;
+        color: black;
+        .navbar-account-link {
+            margin: 0 15px;
+        }
+    }
+}
