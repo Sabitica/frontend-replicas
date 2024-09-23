@@ -56,3 +56,20 @@ a {
 .navbar .navbar-account .navbar-account-link {
   margin: 0 15px;
 }
+
+a {
+  cursor: pointer;
+}
+a.link::after {
+  content: "";
+  display: block;
+  background-color: white;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+a.link:hover::after {
+  width: 100%;
+}
